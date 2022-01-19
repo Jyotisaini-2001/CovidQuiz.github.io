@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.background{
+    
+    
+    background-image: url("images.jfif");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border: 20px solid;
+    border-color: crimson;
+ margin: 5px 10px 0px 10px;
+    resize: both;
+    overflow: scroll;
+}
+html{
+    font-size: 62.5%;
+
+}
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 92%, 94%);
+}
+.inner-div{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0, 0, 0, 0.4);
+}
+.inner-div h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top:1 rem 0 4rem 0;
+
+}
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+
+}
+#submit, .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border-style: groove;
+    border-top-color: crimson;
+    border-radius: 20px;
+    
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #003a49;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(10, 247, 168);
+}
+#showScore{
+    background-color: #F999B7;
+    margin-top: 2rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0, 0, 0, 0.4);;
+}
+#showScore h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+#showScore .btn:hover{
+ margin-top: 2rem;
+ background-color: azure;
+ color: rgb(165, 42, 149);
+}
+.scoreArea{
+    display: none;
+   
+}
